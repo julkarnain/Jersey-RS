@@ -1,4 +1,4 @@
-# demo-rest-jersey-spring @ [![Codingpedia.org 100%](http://img.shields.io/badge/Codingpedia.org-100%25-blue.svg)](http://www.codingpedia.org)
+# Jersey-RS @ [![ElixirSoft](http://www.elixirsoftbd.com)
 
 ## Prerequisites:
 * MySQL 5.5 or 5.6 
@@ -9,7 +9,7 @@
 ## Install and run the project 
 1. download/clone the project 
 2. prepare the database
-  * import in MySQL the self-contained file that comes with the project - [demo-rest-jersey-spring / src / main / resources / input_data / DumpRESTdemoDB.sql](https://github.com/Codingpedia/demo-rest-jersey-spring/blob/master/src/main/resources/input_data/DumpRESTdemoDB.sql)
+  * import in MySQL the self-contained file that comes with the project - [Jersey-RS / src / main / resources / input_data / DumpRESTdemoDB.sql](https://github.com/Codingpedia/demo-rest-jersey-spring/blob/master/src/main/resources/input_data/DumpRESTdemoDB.sql)
   * username/password - `rest_demo`/`rest_demo`
 3. change to the root folder of the project and excute the following maven command 
   * `mvn clean install jetty:run  -Djetty.port=8888 -DskipTests=true`
